@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 //#import "Menu.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @implementation AppDelegate
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup];
+    
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    
 //    Menu *menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
