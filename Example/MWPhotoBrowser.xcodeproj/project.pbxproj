@@ -25,6 +25,8 @@
 		0EC5D4C41B4C46E50092ACC1 /* photo8t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5D4B31B4C46E50092ACC1 /* photo8t.jpg */; };
 		0EC5D4C51B4C46E50092ACC1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5D4B41B4C46E50092ACC1 /* video.mp4 */; };
 		0EC5D4C91B4C480E0092ACC1 /* video_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5D4C81B4C480E0092ACC1 /* video_thumb.jpg */; };
+		1D677A02BE8CC196BB29325A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF923DFFDC3497719C6909E /* BuddyBuildSDK.framework */; };
+		41E5380782C421A63A799641 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8D57AB829D9C6DF559A0BF /* SystemConfiguration.framework */; };
 		4C18E11B1B47E72800E3D63A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C18E1181B47E72800E3D63A /* AppDelegate.m */; };
 		4C18E11C1B47E72800E3D63A /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C18E11A1B47E72800E3D63A /* Menu.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,9 +40,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6B0F63465115DC03890307A8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167D18CB96633741D4E2CD5C /* CoreText.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		90F8751A51A9B7CACD45AE7A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A76C77E6060A4A716520B74 /* CoreTelephony.framework */; };
 		BBD9ABBBC6D859245030E9BA /* libPods-MWPhotoBrowser_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD41C6E3DA363EE7B81636E /* libPods-MWPhotoBrowser_Tests.a */; };
 		BDF7E0625C136532C64B3038 /* libPods-MWPhotoBrowser_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C165E5EE0D40A4673EB6CB0 /* libPods-MWPhotoBrowser_Example.a */; };
+		C97B78B71D8502CE0070CE33 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595229AAB4305421E46CDACB /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +77,10 @@
 		0EC5D4B31B4C46E50092ACC1 /* photo8t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo8t.jpg; path = "MWPhotoBrowser/Local Media/photo8t.jpg"; sourceTree = SOURCE_ROOT; };
 		0EC5D4B41B4C46E50092ACC1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = "MWPhotoBrowser/Local Media/video.mp4"; sourceTree = SOURCE_ROOT; };
 		0EC5D4C81B4C480E0092ACC1 /* video_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = video_thumb.jpg; path = "MWPhotoBrowser/Local Media/video_thumb.jpg"; sourceTree = SOURCE_ROOT; };
+		167D18CB96633741D4E2CD5C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		234A7CACC7671133BED1A091 /* Pods-MWPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser_Tests/Pods-MWPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2BD41C6E3DA363EE7B81636E /* libPods-MWPhotoBrowser_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWPhotoBrowser_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A76C77E6060A4A716520B74 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		42FCB8D314CA85E2DF2C6434 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C18E1171B47E72800E3D63A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C18E1181B47E72800E3D63A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +88,8 @@
 		4C18E11A1B47E72800E3D63A /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		4D7FBE8AC8249BBC4ADD838E /* Pods-MWPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser_Example/Pods-MWPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E0A14EFB687307A0833E979 /* MWPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MWPhotoBrowser.podspec; path = ../MWPhotoBrowser.podspec; sourceTree = "<group>"; };
+		595229AAB4305421E46CDACB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5DF923DFFDC3497719C6909E /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MWPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +105,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6B8D57AB829D9C6DF559A0BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6E2C60685D353B336094E4E7 /* Pods-MWPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser_Example/Pods-MWPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9C165E5EE0D40A4673EB6CB0 /* libPods-MWPhotoBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWPhotoBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +122,11 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				BDF7E0625C136532C64B3038 /* libPods-MWPhotoBrowser_Example.a in Frameworks */,
+				1D677A02BE8CC196BB29325A /* BuddyBuildSDK.framework in Frameworks */,
+				C97B78B71D8502CE0070CE33 /* AssetsLibrary.framework in Frameworks */,
+				6B0F63465115DC03890307A8 /* CoreText.framework in Frameworks */,
+				90F8751A51A9B7CACD45AE7A /* CoreTelephony.framework in Frameworks */,
+				41E5380782C421A63A799641 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +213,11 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				9C165E5EE0D40A4673EB6CB0 /* libPods-MWPhotoBrowser_Example.a */,
 				2BD41C6E3DA363EE7B81636E /* libPods-MWPhotoBrowser_Tests.a */,
+				5DF923DFFDC3497719C6909E /* BuddyBuildSDK.framework */,
+				595229AAB4305421E46CDACB /* AssetsLibrary.framework */,
+				167D18CB96633741D4E2CD5C /* CoreText.framework */,
+				3A76C77E6060A4A716520B74 /* CoreTelephony.framework */,
+				6B8D57AB829D9C6DF559A0BF /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -553,6 +573,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWPhotoBrowser/MWPhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MWPhotoBrowser/MWPhotoBrowser-Info.plist";
@@ -569,6 +593,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWPhotoBrowser/MWPhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MWPhotoBrowser/MWPhotoBrowser-Info.plist";
